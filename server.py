@@ -11,13 +11,6 @@ def my_home():
 def html_pages(page_name):
 	return render_template(page_name)
 
-def write_on_file(data):
-	with open('database.txt', mode='a') as database:
-		email = data["email"]
-		subject = data["subject"]
-		message = data["message"]
-		file = database.write(f'\n{email},{subject},{message}')
-
 def write_on_csv(data):
 	with open('database.csv', newline='', mode='a') as database2:
 		email = data["email"]
@@ -29,6 +22,7 @@ def write_on_csv(data):
 @app.route('/submit_form', methods=['POST', 'GET'])
 def submit_form():
 	if  request.method == 'POST':
+		submit_details = request.form
 		try:
 			data = request.form.to_dict()
 			write_on_csv(data)
