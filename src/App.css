@@ -2,7 +2,6 @@
 
 
 body{
-  width: 100vw;
   display: flex;
   justify-content: center;
   font-size: 3vmin;
@@ -24,7 +23,7 @@ main {
 }
 .heading-background{
   position: fixed;
-  opacity: 0.05;
+  opacity: 0.08;
   font-size: 35vmin;
   top:-2vh;
   z-index: -100;
@@ -40,7 +39,6 @@ header{
 header h1{
 font-size: 5vmin;
 font-weight: 400;
-margin-right: 70vw;
 }
 
 nav{
@@ -48,7 +46,7 @@ nav{
   justify-content: flex-end;
   width:85%;
   position:fixed;
-  top:6vh;
+  margin-top:2vh;
   z-index: 999;
 }
 
@@ -56,12 +54,10 @@ nav li{
   font-size: 2.5vmin;
   display: inline-block;
   cursor: pointer;
-}
-nav li .link{
   text-decoration: none;
   color: black;
   padding:2vh 2vw;
-  opacity: 0.3;
+  opacity: 0.4;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -69,7 +65,7 @@ nav li .link{
   -o-transition: all 0.3s ease-in-out;
 }
 
-li .link:hover{
+.link :hover{
   opacity: 1;
 }
 
@@ -80,9 +76,11 @@ li .link:hover{
 
 .header-title button{
   background: black;
+  color:white;
   border: 0;
+  padding:2.5vmin;
   font-size: 2.5vmin;
-  padding: 2vh 5vw;
+  cursor: pointer;
   transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -129,11 +127,12 @@ li .link:hover{
 .about-content p{
   font-size: 3.5vmin;
   text-align: left;
-  width: 37vw;
+  width: 35vw;
 }
 
 .about img{
-  width:50vw;
+  margin-top: 10vh;
+  width:45vw;
   height:auto;
   margin-left: 5vw;
 }
@@ -198,6 +197,10 @@ height: auto;
   text-decoration: none;
   color:black;
 }
+
+.contact li:hover{
+  opacity: 0.8;
+}
 .footer{
   position: relative;
   top:2em;
@@ -210,6 +213,11 @@ height: auto;
 
 
 @media only screen and (max-width : 800px) {
+
+  .heading-background{
+    top:15vh;
+    font-size: 30vmin;
+  }
 
   .project img{
   width: 80vw;  

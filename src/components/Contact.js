@@ -6,7 +6,7 @@ class Contact extends Component {
     state = {  }
     render() { 
         return (  
-        <div>
+        <>
             <h1>
                     <Fade bottom cascade> Contact.</Fade>
             </h1>
@@ -23,7 +23,7 @@ class Contact extends Component {
                     </ul>
             </div>
             </Fade>
-        </div>
+        </>
         );
     }
 }

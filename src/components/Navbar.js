@@ -9,7 +9,7 @@ class Navbar extends Component {
         return (
         <nav>
             <ul>
-                <li><Link
+                <Link
                     className='link'
                     activeClass="active"
                     to="homw"
@@ -18,8 +18,8 @@ class Navbar extends Component {
                     offset={-70}
                     duration={500}
                     onClick={this.scrollToTop}
-                >Home</Link></li>
-                <li><Link
+                ><li>Home</li></Link>
+                <Link
                     className='link'
                     activeClass="active"
                     to="About"
@@ -27,8 +27,8 @@ class Navbar extends Component {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >About</Link></li>
-                <li><Link
+                ><li>About</li></Link>
+                <Link
                     className='link'
                     activeClass="active"
                     to="works"
@@ -36,8 +36,8 @@ class Navbar extends Component {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >Projects</Link></li>
-                <li><Link
+                ><li>Projects</li></Link>
+                <Link
                     className='link'
                     activeClass="active"
                     to="contact"
@@ -45,7 +45,7 @@ class Navbar extends Component {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >Contact</Link></li>
+                ><li>Contact</li></Link>
             </ul>
         </nav> 
         );

@@ -4,13 +4,13 @@ export default
         headerTagline: [
                         'Hi 👋 You found me! I am Derrick Lau.',
                         'Full-stack Web developer',          
-    ],
+        ],
         contactEmail:'lauf@cardiff.ac.com',
         abouttext: "Hi there I am a MSc student studying Computing. I started developing web apps in 2018, with experience in HTML, CSS, Javascript all the way to modern techs like React and C# asp.net core.",
         aboutImage:'https://live.staticflickr.com/2279/2020187066_f3bca7cbac_b.jpg',
-       ShowAboutImage:true,
+        ShowAboutImage:true,
   
-       projects:[
+        projects:[
            {
             id: 1,
             title:'Face-detection-app', 
@@ -43,6 +43,5 @@ export default
                 name: 'Linkedin',
                 url: 'https://www.linkedin.com/in/for-ka-l-551262168/'
             }
-
         ]
     }
