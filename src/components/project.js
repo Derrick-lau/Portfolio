@@ -6,15 +6,15 @@ class Project extends Component {
     render() { 
         return ( 
         <Fade bottom>
-        <div className='project'>
-            <h1>{this.props.title}</h1>
-            <h4>{this.props.service}</h4>
-        <a href={this.props.url}>
-            <img src={this.props.imageSrc} alt={this.props.title}></img>
-        </a>
+            <div className='project'>
+                    <h1>{this.props.title}</h1>
+                    <h4>{this.props.service}</h4>
+                    <a href={this.props.url}>
+                        <img src={this.props.imageSrc} alt={this.props.title}></img>
+                    </a>
 
-        </div> 
-            </Fade>);
+            </div> 
+        </Fade>);
     }
 }
  

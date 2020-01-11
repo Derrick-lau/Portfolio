@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import data from '../yourdata'
+import data from '../data'
 
 
 class Header extends Component {
     state = {}
 
     render() {
-        return (<div>
+        return (
+        <>
         <h1 className='heading-background'>CREATIVE</h1>
             <header>
                 <h1>
@@ -21,10 +22,8 @@ class Header extends Component {
                     <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
                 </p>
             </Fade>
-
-
-
-        </div>);
+        </>
+        );
     }
 }
 

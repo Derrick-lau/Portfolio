@@ -6,7 +6,8 @@ class Navbar extends Component {
         scroll.scrollToTop();
     };
     render() { 
-        return (<nav>
+        return (
+        <nav>
             <ul>
                 <li><Link
                     className='link'
@@ -46,7 +47,8 @@ class Navbar extends Component {
                     duration={500}
                 >Contact</Link></li>
             </ul>
-        </nav> );
+        </nav> 
+        );
     }
 }
  

@@ -7,23 +7,23 @@ import Work from './components/work';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar'
 
-function App() {
+const App = () => {
   return (
-    <>
+    <main>
       <Navbar></Navbar>
-      <div className="App-header">
+      <section className="App-header">
       <Header></Header>
-      </div>
-      <div className='About'>
+      </section>
+      <section className='About'>
         <About></About>
-      </div>
-      <div className='works'>
+      </section>
+      <section className='works'>
         <Work></Work>
-      </div>
-      <div className='contact'>
+      </section>
+      <section className='contact'>
         <Contact></Contact>
-      </div>
-    </>
+      </section>
+    </main>
   );
 }
 
