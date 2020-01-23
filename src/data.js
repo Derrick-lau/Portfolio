@@ -14,7 +14,7 @@ export default
            {
             id: 1,
             title:'Face-detection-app', 
-             service:'Website Development (React, Express)', 
+             service:'Web Development (React, Express)', 
 
              imageSrc:"https://live.staticflickr.com/65535/49356444676_e4b81ad664_h.jpg",
 
@@ -23,16 +23,16 @@ export default
             {
                 id: 2,
                 title: 'Library Management System',
-                service: 'Website Development (React, Express)',
+                service: 'Web Development (React, Express)',
                 imageSrc: "https://live.staticflickr.com/65535/49355991563_3e7d54c7ac_h.jpg",
                 url: 'https://github.com/Derrick-lau/LMS/'
             },
             { 
                 id: 3,
-                title: 'Activity Platform (developing......)',
-                service: 'Website Development (React-typescript, asp.net core)',
+                title: 'Library Management System (developing......)',
+                service: 'Web Development (React-typescript, Java Spring boot)',
                 imageSrc: "https://live.staticflickr.com/65535/49356652602_0cab5ac61c_c.jpg",
-                url: 'https://github.com/Derrick-lau/Face-detection-network/'
+                url: 'https://github.com/Derrick-lau/LMS-JAVA/'
             },
         ],
         social: [
