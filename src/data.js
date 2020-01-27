@@ -29,10 +29,17 @@ export default
             },
             { 
                 id: 3,
-                title: 'Library Management System (developing......)',
+                title: 'Migrating Library Management System to Java (developing......)',
                 service: 'Web Development (React-typescript, Java Spring boot)',
                 imageSrc: "https://live.staticflickr.com/65535/49356652602_0cab5ac61c_c.jpg",
                 url: 'https://github.com/Derrick-lau/LMS-JAVA/'
+            },
+            { 
+                id: 4,
+                title: 'Migrating Face-detection-app to ASP.NET CORE (developing......)',
+                service: 'Web Development (React-typescript, C# ASP.NET CORE)',
+                imageSrc: "https://live.staticflickr.com/65535/49356652602_0cab5ac61c_c.jpg",
+                url: 'https://github.com/Derrick-lau/Face-detection-network'
             },
         ],
         social: [
