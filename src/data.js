@@ -30,8 +30,8 @@ export default
             { 
                 id: 3,
                 title: 'Migrating Library Management System to Java (developing......)',
-                service: 'Web Development (React-typescript, Java Spring boot)',
-                imageSrc: "https://live.staticflickr.com/65535/49356652602_0cab5ac61c_c.jpg",
+                service: 'Web Development (React-typescript, Redux, Java Spring boot)',
+                imageSrc: "https://live.staticflickr.com/65535/49355991563_3e7d54c7ac_h.jpg",
                 url: 'https://github.com/Derrick-lau/LMS-JAVA/'
             },
             { 
