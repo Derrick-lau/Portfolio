@@ -22,16 +22,16 @@ export default
             },
             { 
                 id: 2,
-                title: 'Migrating Library Management System to Java (developing......)',
+                title: 'Migrating Library Management System to Java',
                 service: 'Web Development (React-typescript, Redux, Java Spring boot)',
                 imageSrc: "https://live.staticflickr.com/65535/49355991563_3e7d54c7ac_h.jpg",
                 url: 'https://github.com/Derrick-lau/library-management-java'
             },
             { 
                 id: 3,
-                title: 'E-commerce web app  (developing......)',
+                title: 'E-commerce web app',
                 service: 'Web Development (Nextjs-typescript(SSR), Redux, Python flask)',
-                imageSrc: "https://live.staticflickr.com/65535/49356652602_0cab5ac61c_c.jpg",
+                imageSrc: "https://live.staticflickr.com/65535/50120236827_77b208de45_b.jpg",
                 url: 'https://github.com/Derrick-lau/e-commerce-app'
             },
         ],
